@@ -28,7 +28,7 @@ int main()
                 cout<<"("<<i<<"^"<<count<<")";
         }
     }
-    if(n>1)
+    if(n>1)//no is prime that's why it is >1
         cout<<"("<<n<<"^1)";
     return 0;
 }
