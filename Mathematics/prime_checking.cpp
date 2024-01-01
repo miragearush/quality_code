@@ -23,7 +23,7 @@ int main() {
           cout<<"NO";
           exit(0);
      }
-     for(int i=5;i<sqrt(n);i+=6) //this loop runs like (6n-1)
+     for(int i=5;i<=sqrt(n);i+=6) //this loop runs like (6n-1)
      {
           if(n%i==0 || n%(i+2)==0)//i+2 will act as (6n+1)
           {
