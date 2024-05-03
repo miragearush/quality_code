@@ -1,5 +1,7 @@
 /*
-    Bubble Sort
+    Insertion sort
+    first element in itself is already sorted so sorting starts from 2nd onwards
+    we are selecting a postion for every element
 */
 #include <iostream>
 using namespace std;
